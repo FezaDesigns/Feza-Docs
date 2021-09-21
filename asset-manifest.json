@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/feza-docs/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/feza-docs/static/js/main.c9938ad8.chunk.js",
-    "main.js.map": "/feza-docs/static/js/main.c9938ad8.chunk.js.map",
-    "runtime-main.js": "/feza-docs/static/js/runtime-main.6af4fea5.js",
-    "runtime-main.js.map": "/feza-docs/static/js/runtime-main.6af4fea5.js.map",
-    "static/js/2.7874c496.chunk.js": "/feza-docs/static/js/2.7874c496.chunk.js",
-    "static/js/2.7874c496.chunk.js.map": "/feza-docs/static/js/2.7874c496.chunk.js.map",
-    "static/js/3.b1c44ab3.chunk.js": "/feza-docs/static/js/3.b1c44ab3.chunk.js",
-    "static/js/3.b1c44ab3.chunk.js.map": "/feza-docs/static/js/3.b1c44ab3.chunk.js.map",
-    "index.html": "/feza-docs/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/feza-docs/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.7874c496.chunk.js.LICENSE.txt": "/feza-docs/static/js/2.7874c496.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/feza-docs/static/media/logo.6ce24c58.svg"
+    "main.css": "/Feza-Docs/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/Feza-Docs/static/js/main.c9938ad8.chunk.js",
+    "main.js.map": "/Feza-Docs/static/js/main.c9938ad8.chunk.js.map",
+    "runtime-main.js": "/Feza-Docs/static/js/runtime-main.0fbbee10.js",
+    "runtime-main.js.map": "/Feza-Docs/static/js/runtime-main.0fbbee10.js.map",
+    "static/js/2.7874c496.chunk.js": "/Feza-Docs/static/js/2.7874c496.chunk.js",
+    "static/js/2.7874c496.chunk.js.map": "/Feza-Docs/static/js/2.7874c496.chunk.js.map",
+    "static/js/3.b1c44ab3.chunk.js": "/Feza-Docs/static/js/3.b1c44ab3.chunk.js",
+    "static/js/3.b1c44ab3.chunk.js.map": "/Feza-Docs/static/js/3.b1c44ab3.chunk.js.map",
+    "index.html": "/Feza-Docs/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/Feza-Docs/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.7874c496.chunk.js.LICENSE.txt": "/Feza-Docs/static/js/2.7874c496.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Feza-Docs/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6af4fea5.js",
+    "static/js/runtime-main.0fbbee10.js",
     "static/js/2.7874c496.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
     "static/js/main.c9938ad8.chunk.js"
