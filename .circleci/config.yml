@@ -4,14 +4,20 @@ version: 2.1
 orbs:
   node: circleci/node@4.7
 
+commands: 
+  deploy_docs:
+    steps: 
+      - checkout
+      - run:
+          name: "Deploy docs"
+          command: yarn run deploy
+
+
 workflows:
-  sample:
+  feza-docs:
     jobs:
-      - node/test:
-          version: '16.10'
-          # If you are using yarn, change the line below from "npm" to "yarn"
-          pkg-manager: yarn
-          #
-          # This is the node version to use for the `cimg/node` tag
-          # Relevant tags can be found on the CircleCI Developer Hub
-          # https://circleci.com/developer/images/image/cimg/node
+      - deploy_docs:
+          executor: node/default
+          steps:
+            - deploy_docs
+
