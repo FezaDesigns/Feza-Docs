@@ -12,8 +12,8 @@ jobs:
       - run: 
           name: "set git username"
           command: |
-              git config user.email "fezadesigns@gmail.com"
-              git config user.name "FezaDesignsHandle"
+              git config user.email "kirubakarthikeyan07@gmail.com"
+              git config user.name "Kiruba Karan"
       - run: 
           name: "Initializing deployment"
           command: npm run deploy
