@@ -1,0 +1,23 @@
+# This config is equivalent to both the '.circleci/extended/orb-free.yml' and the base '.circleci/config.yml'
+version: 2.1
+
+orbs:
+  node: circleci/node@4.7
+
+commands: 
+  deploy_docs:
+    steps: 
+      - checkout
+      - run:
+          name: "Deploy docs"
+          command: yarn run deploy
+
+
+workflows:
+  feza-docs:
+    jobs:
+      - deploy_docs:
+          executor: node/default
+          steps:
+            - deploy_docs
+
