@@ -16,8 +16,7 @@ commands:
 workflows:
   feza-docs:
     jobs:
-      - deploy_docs:
-          executor: node/default
-          steps:
-            - deploy_docs
+      - node/run:
+          yarn-run: deploy
+
 
