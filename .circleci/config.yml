@@ -9,7 +9,16 @@ jobs:
       - node/install-packages:
           cache-path: ~/node_modules
           override-ci-command: npm install
-      - run: npm run deploy
+      - run: 
+          name: "set git username"
+          command: |
+              git config user.email "fezadesigns@gmail.com"
+              git config user.name "FezaDesignsHandle"
+      - run: 
+          name: "Initializing deployment"
+          command: npm run deploy
+
+
 workflows:
   deploy_docs:
     jobs:
